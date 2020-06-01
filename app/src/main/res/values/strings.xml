@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Button Less</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="select_destination_floor">Select destination floor</string>
+    <string name="first_floor_pref">First floor</string>
+    <string name="last_floor">Insert the top floor number</string>
+    <string name="first_floor_pref_sum">Pick the basement floor number</string>
+    <string name="last_floor_sum">Top Floor</string>
+    <string name="switch_pref">Turn this option on or off</string>
+    <string name="lang_pref_sum">Select the app language</string>
+    <string name="lang_pref">language</string>
+    <string name="spell_destination">Spell Destination</string>
+    <string name="scan_current_floor_qr_code">Scan current floor QR Code</string>
+    <string name="scan_qr">SCAN QR</string>
+    <string name="tab1">Call Elevator</string>
+    <string name="tab2">Choose Destination</string>
+</resources>

@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:defaultValue= "0"
+        android:key="edit_floor_number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="numberDecimal|numberSigned"
+        android:digits="0123456789"
+        android:title="@string/first_floor_pref"
+        android:summary="@string/first_floor_pref_sum"/>
+    <EditTextPreference
+        android:defaultValue="32"
+        android:inputType="numberDecimal|numberSigned"
+        android:digits="0123456789"
+        android:key="integer_pref"
+        android:selectAllOnFocus="true"
+        android:singleLineTitle="true"
+        android:summary="@string/last_floor"
+        android:title="@string/last_floor_sum" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:title="Settings option"
+        android:key="example_switch"
+        android:summary="@string/switch_pref" />
+    <ListPreference
+        android:title="@string/lang_pref_sum"
+        android:summary="@string/lang_pref"
+        android:key="language"
+        android:defaultValue="0"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+</PreferenceScreen>

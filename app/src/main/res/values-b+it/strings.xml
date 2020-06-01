@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Touch Less</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_destination_floor">Piano di destinazione</string>
+    <string name="first_floor_pref">Primo piano</string>
+    <string name="last_floor">Ultimo piano</string>
+    <string name="first_floor_pref_sum">Imposta il piano più basso dell\'ascensore </string>
+    <string name="last_floor_sum">Digita il  piano più alto dell\' ascensore</string>
+    <string name="switch_pref">Vibrazione</string>
+    <string name="lang_pref_sum">Scegli la lingua dell\'app</string>
+    <string name="lang_pref">Lingua</string>
+    <string name="spell_destination">Pronuncia destinazione</string>
+    <string name="scan_current_floor_qr_code">Scan il QR code del piano </string>
+    <string name="scan_qr">SCAN QR</string>
+    <string name="tab1">Chiama Ascensore</string>
+    <string name="tab2">Scegli Destinazione</string>
+
+</resources>
